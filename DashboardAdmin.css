@@ -1,0 +1,87 @@
+/* DashboardAdmin.css */
+
+/* Style global du tableau de bord */
+.dashboard-container {
+  display: flex;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Sidebar - Couleur marron clair */
+.sidebar {
+    width: 250px;
+    background-color: #d2691e; /* Marron clair */
+    color: brown;
+    padding: 200px;
+    position: fixed;
+    height: 1000vh;
+  }
+  
+  
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.sidebar button:hover {
+  background-color: #555;
+}
+
+/* Contenu principal */
+.main-content {
+  margin-left: 270px;
+  padding: 30px;
+  width: calc(100% - 270px);
+}
+
+.main-content h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.main-content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.main-content button:hover {
+  background-color: darkred;
+}
+
+.button-link {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+}
+
+/* Style des sections */
+.section {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;  /* Encadré autour de chaque section */
+  border-radius: 8px;       /* Coins arrondis pour plus de douceur */
+  background-color: #f9f9f9;  /* Fond légèrement clair */
+}

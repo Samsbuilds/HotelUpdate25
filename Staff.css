@@ -1,0 +1,93 @@
+/* General container styling */
+.staff-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7; /* Light background for the entire page */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headings */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Staff section layout */
+.staff-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Space between the columns */
+  margin-top: 20px;
+}
+
+/* Staff column styling */
+.staff-column {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f4e1d2; /* Light beige for the column */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle 3D shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.staff-column:hover {
+  transform: translateY(-5px); /* Slight elevation on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+}
+
+.staff-column h2 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #e67e22; /* Orange underline for titles */
+  padding-bottom: 10px;
+}
+
+/* List styling inside the columns */
+.staff-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.staff-column li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #34495e;
+}
+
+.staff-column li:last-child {
+  border-bottom: none;
+}
+
+.staff-column li span {
+  color: #7f8c8d; /* Gray for the status */
+  font-size: 0.9rem;
+  font-weight: normal;
+  display: block;
+  margin-top: 5px;
+}
+
+/* Hover effect for list items */
+.staff-column li:hover {
+  background-color: #e67e22; /* Orange background on hover */
+  color: white; /* Change text color to white */
+  cursor: pointer;
+}
+
+/* Styling for matricules (ID numbers) */
+.matricule {
+  font-weight: bold;
+  color: #e67e22; /* Highlight matricules with an orange color */
+}

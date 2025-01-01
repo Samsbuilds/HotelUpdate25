@@ -1,0 +1,71 @@
+/* AdminLogin.css */
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('HERO-CovidHotels-ThePostOakHotelAtUptownHouston-FrontEntrance-CreditFertittaEntertainment-3425695783.jpg'); /* Path to the background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  padding: 10px;
+  background-color: #6F4F37 !important; /* Ajout du !important pour forcer l'application du style */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #5e4131 !important; /* Ajout du !important pour l'effet hover */
+}
+
+.employee-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 20px; /* Place le texte au bas de la page */
+}
+
+.employee-link p {
+  margin-right: 10px;
+  color: white; /* "Vous êtes employé ?" en blanc */
+}
+
+.employee-link button {
+  background-color: #6F4F37; /* Bouton "Cliquez ici" marron */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.employee-link button:hover {
+  background-color: #5e4131; /* Couleur du bouton au survol */
+}
